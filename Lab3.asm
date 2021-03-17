@@ -67,9 +67,6 @@ CODESEG
 
 ; Філянін Н.С. - виводимо FNS
 ; В ASCII F-46 N-4E S-53
-
-inc si
-inc si
 	mov al, 046h 			; Записуємо до АL F
 	mov [array2Db+bx+si], al; M(DS*16+array2Db+BX+SI)
 	M_Increment				; Виконується макрос
